@@ -12,7 +12,7 @@ module.exports = {
     destroy: destroy
 }
 
-var auth = require('../../lib/auth-basic');
+var auth = require('../../lib/auth-cookie');
 
 /** @function list
  * Sends a list of all projects as a JSON array.
