@@ -1,5 +1,5 @@
 module.exports = {
-    list
+    list: list
 };
 
 
@@ -13,6 +13,6 @@ function list(projects) {
             $('<td>').text(project.name)
         ).appendTo(table);
     });
-    
+
     return table;
 }
